@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Oldagram/static/css/main.073c9b0a.css",
+    "main.js": "/Oldagram/static/js/main.9901e7b9.js",
+    "static/js/787.9caa6505.chunk.js": "/Oldagram/static/js/787.9caa6505.chunk.js",
+    "static/media/logo.svg": "/Oldagram/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Oldagram/index.html",
+    "main.073c9b0a.css.map": "/Oldagram/static/css/main.073c9b0a.css.map",
+    "main.9901e7b9.js.map": "/Oldagram/static/js/main.9901e7b9.js.map",
+    "787.9caa6505.chunk.js.map": "/Oldagram/static/js/787.9caa6505.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9901e7b9.js"
+  ]
+}
