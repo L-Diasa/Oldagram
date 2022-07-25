@@ -1,13 +1,102 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+}
+
+.app {
+  width: 375px;
+  margin: auto;
+}
+
+.navbar {
+  width: inherit;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.navbar-logo {
+  width: 127px;
+  padding: 13px;
+}
+
+.post-contect {
+  width: inherit;
+}
+
+.post-header {
+  display: flex;
+  column-gap: 7px;
+  padding: 10px;
+}
+
+.post-header-location {
+  font-size: 12px;
+}
+
+.post-likes-text,
+.post-caption {
+  margin-left: 13px;
+}
+
+.post-caption {
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.post-header img {
+  align-self: center;
+  width: 34px;
+  border-radius: 50%;
+}
+
+.post-image-section {
+  position: relative;
+  width: inherit;
+}
+
+.post-image-section-post  {
+  width: inherit;
+  margin-bottom: 10px;
+}
+
+.post-image-section-heart  {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translateX(-50%) translateY(-50%);
+  animation: popUpImgHeart 0.8s;
+}
+
+.icon-heart-filled-red {
+  transform: scale(1.1);
+  animation: popUpIconHeart 0.5s;
+}
+
+.post-interaction img {
+  width: 24px;
+  margin: 10px;
+}
+
+@keyframes popUpImgHeart {
+  0%  {transform: translateX(-50%) translateY(-50%) scale(1)}
+  50%  {transform: translateX(-50%) translateY(-50%) scale(1.2)}
+  100%  {transform: translateX(-50%) translateY(-50%) scale(1)}
+}
+
+@keyframes popUpIconHeart {
+  0%  {transform: scale(0.9)}
+  50%  {transform: scale(1.2)}
+  100%  {transform: scale(1)}
+}
+
+.hidden {
+  display: none;
+}
+
+.bold {
+  font-weight: 700;
 }
